@@ -114,3 +114,30 @@ body {
 .popular-cards .card-rating {
     margin-bottom: 5px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    height: 18px;
+}
+
+.navigation {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+.nav-link:hover {
+    border-top: 2px solid var(--main-color);
+    color: var(--main-color);
+}
